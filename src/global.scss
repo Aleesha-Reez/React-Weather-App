@@ -1,0 +1,60 @@
+/* Center elements */
+.allCenter {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Change font and hide scroll bar */
+  body {
+    font-family: sans-serif !important;
+    overflow-x: hidden;
+  }
+  
+  
+  /* Header.js*/
+  .header {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    background: #ff7777;
+    box-shadow: 0 4px 4px -2px gray;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* CountryList.js*/
+  .countryList {
+    background: #3f3f3f;
+    .eachCountry {
+      cursor: pointer;
+    }
+    position: fixed;
+    left:0;
+    width: 150px;
+  }
+  
+  /* Cities.js */
+  .eachCity {
+    height: 160px;
+    width: 220px;
+    background: #ded9cb;
+    box-shadow: 0 4px 4px -2px gray;
+    z-index: -1;
+    .cityTemperature {
+      height: 28px;
+      width: 28px;
+      font-size: 14px;
+      padding: 5px;
+      background: #fdfff2;
+    }
+    .hotIcon {
+      font-size: 20px;
+      color: orange;
+    }
+    .coldIcon {
+      font-size: 20px;
+      color: blue;
+    }
+  }
